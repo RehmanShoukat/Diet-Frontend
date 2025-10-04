@@ -49,10 +49,7 @@ export default function Navbar() {
             <Link to= "/appointment">Appointment</Link>
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-600 transition-all duration-300 group-hover:w-[30%]"></span>
           </li>
-          <li className="relative group hover:text-yellow-600 cursor-pointer">
-            <Link to="/blogs">Blog</Link>
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-600 transition-all duration-300 group-hover:w-[30%]"></span>
-          </li>
+         
           {!isAuth
           ?<li className="relative group hover:text-yellow-600 cursor-pointer">
             <Link to="/auth/login">Login</Link>
